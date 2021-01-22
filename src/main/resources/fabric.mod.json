@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "davensmod",
+  "version": "${version}",
+
+  "name": "Davens Mov",
+  "description": "This mod is for the testing of various items and other ideas.",
+  "authors": [
+    "limeislimey",
+    "NivXIV",
+    "Round Table Educators"
+  ],
+  "contact": {
+    "homepage": "https://www.facebook.com/RTEducators",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "all-3.0",
+  "icon": "assets/davensmod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.limeislimey.davensmod.DavensMod"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
